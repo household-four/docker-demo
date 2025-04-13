@@ -10,5 +10,5 @@ jobs:
     - uses: actions/checkout@v4
     - name: Build the Docker image
       run: |
-        echo "Hello, World!"
-        #docker build --file Dockerfile . --no-cache -t docker-demo
+        #echo "Hello, World!"
+        docker build --file Dockerfile . --no-cache -t docker-demo
